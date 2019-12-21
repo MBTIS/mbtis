@@ -28,4 +28,16 @@ public class MainActivity extends AppCompatActivity {
         }, 4000);
 
     }
+
+    public void mbtiDetail(View view) {
+    }
+
+    public void help(View view) {
+    }
+
+    public void about(View view) {
+    }
+
+    public void test(View view) {
+    }
 }
