@@ -63,7 +63,7 @@
                 android:onClick="test"
                 app:cardBackgroundColor="#80030303"
                 app:cardCornerRadius="12dp"
-                app:cardElevation="0dp">
+                app:cardElevation="6dp">
 
                 <LinearLayout
 
@@ -185,7 +185,7 @@
                 android:onClick="about"
                 app:cardBackgroundColor="#80030303"
                 app:cardCornerRadius="12dp"
-                app:cardElevation="0dp">
+                app:cardElevation="6dp">
 
                 <LinearLayout
 
