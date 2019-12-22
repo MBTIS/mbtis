@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
+import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -27,15 +28,12 @@ public class Test extends AppCompatActivity {
     public TextView questions;
     public RadioButton answerA;
     public RadioButton answerB;
+    public RadioGroup buttongroup;
     public int questionNumber;
 
 
     public void nextButton(View view){
-
-        answerA.setChecked(false);
-        answerB.setChecked(false);
-
-
+        buttongroup.clearCheck();
         if(questionNumber<question.length) {
 
             questions.setText(Integer.toString(questionNumber+1)+". "+question[questionNumber]);
@@ -61,6 +59,7 @@ public class Test extends AppCompatActivity {
         questions=(TextView) findViewById(R.id.questions);
         answerA=(RadioButton) findViewById(R.id.answerA);
         answerB=(RadioButton) findViewById(R.id.answerB);
+        buttongroup=(RadioGroup) findViewById(R.id.answersGroup);
         questionNumber=0;
         Toast.makeText(this, "Question number 1", Toast.LENGTH_SHORT).show();
         questions.setText(Integer.toString(0+1)+". "+question[0]);
