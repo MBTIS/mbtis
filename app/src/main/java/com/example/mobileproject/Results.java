@@ -43,7 +43,7 @@ public class Results extends AppCompatActivity {
                     String Userid=cursor.getString(0);
                     String Username=cursor.getString(1);
                     String Userresult=cursor.getString(2);
-                    ShowResults.setText("Hey "+Username+" your MBTI Result is \n"+Userresult);
+                    ShowResults.setText("Hey "+Username+" your MBTI Result is \n"+Userresult+"\nFor more information check the personality type in the HELP center ");
                 }
         }
 }
