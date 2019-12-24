@@ -45,7 +45,7 @@ public class Test extends AppCompatActivity {
             "Would you say you are more"
     };
      String [][] choice={
-            {" Interact with many, including strangers"," Interact with many, including strangers"},
+            {" Interact with many, including strangers"," Interact with a few, known to you"},
             {" Realistic than speculative", "Speculative than realistic"},
             {"Have your “head in the clouds", "Be “in a rut”"},
             {"Principles", "Emotions"},
