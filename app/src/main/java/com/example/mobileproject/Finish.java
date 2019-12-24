@@ -49,7 +49,6 @@ public class Finish extends AppCompatActivity {
                 name=username.getText().toString();
                 String query="INSERT INTO userdata VALUES (null, '"+name+"', '"+MBTIResult+"')";
                 sqlite.execSQL(query);
-                Log.e("Inserted", "Yes it is Inserted");
                 String show;
                 Cursor cursor= sqlite.rawQuery("SELECT * FROM userdata", null);
                 while(cursor.moveToNext()){
