@@ -15,6 +15,9 @@ import android.widget.Toast;
 import java.util.Arrays;
 
 public class Test extends AppCompatActivity {
+    int E=0, I=0, S=0, N=0, T=0, F=0, J=0, P=0;
+    String Result[]=new String [4];
+    String MBTIResult;
     String [] question={
             "At a party do you",
             "Are you more",
@@ -109,7 +112,11 @@ public class Test extends AppCompatActivity {
                     answerA.setText(choice[questionNumber][0]);
                     answerB.setText(choice[questionNumber][1]);
                 }else if(questionNumber>=question.length-1){
-                    startActivity(new Intent(Test.this,finish.class));
+                    computeMBTIResult();
+//                    startActivity(new Intent(Test.this,Finish.class));
+                    Intent intent=new Intent(Test.this, Finish.class);
+                    intent.putExtra("MBTIResult", computeMBTIResult());
+                    startActivity(intent);
                     finish();
                 }
                 buttongroup.clearCheck();
@@ -134,5 +141,64 @@ public class Test extends AppCompatActivity {
         questionNumber=0;
         viewQuestions();
 
+    }
+
+    public String computeMBTIResult(){
+
+        for (int i=0; i<userAnswer.length; i++){
+
+            if(i%7==0){
+                if(userAnswer[i]==1){
+                    E++;
+                }else{
+                    I++;
+                }
+            }else if(i%7==1 || i%7==2){
+                if(userAnswer[i]==1){
+                    S++;
+                }else{
+                    N++;
+                }
+            }else if(i%7==3 || i%7==4){
+                if(userAnswer[i]==1){
+                    T++;
+                }else{
+                    F++;
+                }
+            }else if(i%7==5 || i%7==6){
+                if(userAnswer[i]==1){
+                    J++;
+                }else{
+                    P++;
+                }
+            }
+        }
+
+        if(E>I){
+            Result[0]="E";
+        }else{
+            Result[0]="I";
+        }
+        if(S>N){
+            Result[1]="S";
+        }else{
+            Result[1]="N";
+        }
+        if(T>F){
+            Result[2]="T";
+        }else{
+            Result[2]="F";
+        }
+        if(J>P){
+            Result[3]="J";
+        }else{
+            Result[3]="P";
+        }
+
+        MBTIResult=Arrays.toString(Result);
+
+
+        Log.e("MBTI Result is ", MBTIResult);
+        return MBTIResult;
     }
 }

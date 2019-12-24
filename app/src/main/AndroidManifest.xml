@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/icon"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".finish"></activity>
+        <activity android:name=".Finish"></activity>
         <activity android:name=".Test" />
         <activity android:name=".Home" />
         <activity android:name=".MainActivity">
