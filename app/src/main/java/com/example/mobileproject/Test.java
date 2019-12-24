@@ -4,12 +4,15 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.util.Arrays;
 
 public class Test extends AppCompatActivity {
     String [] question={
@@ -64,7 +67,7 @@ public class Test extends AppCompatActivity {
 
     };
 
-     int [] userAnswer;
+     int [] userAnswer=new int[question.length];
 
     public TextView questions;
     public RadioButton answerA;
@@ -74,10 +77,14 @@ public class Test extends AppCompatActivity {
     public int questionNumber;
 
     public void viewQuestions(){
-        Toast.makeText(this, "Question number 1", Toast.LENGTH_SHORT).show();
         questions.setText(Integer.toString(0+1)+". "+question[0]);
         answerA.setText(choice[0][0]);
         answerB.setText(choice[0][1]);
+//        if(answerA.isSelected()){
+//            userAnswer[0]=1;
+//        }else if(answerB.isSelected()){
+//            userAnswer[0]=2;
+//        }
         if(answerA.isChecked() || answerB.isChecked())
         {
             questionNumber++;
@@ -87,6 +94,11 @@ public class Test extends AppCompatActivity {
             public void onClick(View view) {
                 if(answerA.isChecked() || answerB.isChecked())
                 {
+                    if(answerA.isChecked()){
+                        userAnswer[questionNumber]=1;
+                    }else if(answerB.isChecked()){
+                        userAnswer[questionNumber]=2;
+                    }
                     questionNumber++;
                 }else {
                     Toast.makeText(Test.this, "Please choose an answer", Toast.LENGTH_SHORT).show();
@@ -96,12 +108,14 @@ public class Test extends AppCompatActivity {
                     questions.setText(Integer.toString(questionNumber+1)+". "+question[questionNumber]);
                     answerA.setText(choice[questionNumber][0]);
                     answerB.setText(choice[questionNumber][1]);
-                    Toast.makeText(Test.this, "Question Number "+Integer.toString(questionNumber+1), Toast.LENGTH_SHORT).show();
                 }else if(questionNumber>=question.length-1){
                     startActivity(new Intent(Test.this,finish.class));
                     finish();
                 }
                 buttongroup.clearCheck();
+                for(int i=0; i<questionNumber; i++) {
+                    Log.e("Mesage", Arrays.toString(userAnswer));
+                }
 
             }
         });
