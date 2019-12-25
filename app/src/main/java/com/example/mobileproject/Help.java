@@ -68,7 +68,7 @@ String detail=
         "• Too Rigid \n" +
         "• Judgmental\n" +
         "• Needs to Be Right\n" +
-        "________________________________________________\n\n" +
+        "__________________________________________________________\n\n" +
         "ISFJ\n" +
         "ISFJs are dedicated and hard workers who believe in good service. They enjoy finding resolutions to day-to-day challenges.\n" +
         "\n" +
@@ -89,7 +89,7 @@ String detail=
         "• Overload Themselves\n" +
         "• Reluctant to Change\n" +
         "• Too Altruistic\n" +
-         "________________________________________________\n\n" +
+         "__________________________________________________________\n\n" +
         "INFJ\n" +
         "INFJs need to express their creativity and insight. They must find meaning in their work, in order to know they are helping and connecting with people.\n" +
         "An INFJ would excel in the following job types:\n" +
@@ -109,7 +109,7 @@ String detail=
         "• Private\n" +
         "• Perfectionistic\n" +
         "• Easily Bored\n" +
-         "________________________________________________\n\n" +
+         "__________________________________________________________\n\n" +
         "INTJ\n" +
         "INTJs prefer to work alone, or in small groups. They need to be in an environment with minimal interference. They are creative perfectionists who like to do things their way.\n" +
         "An INTJ would excel in the following job types:\n" +
@@ -129,7 +129,7 @@ String detail=
         "• Overly Analytical\n" +
         "• Arrogant\n" +
         "• Insensitive\n" +
-         "________________________________________________\n\n" +
+         "__________________________________________________________\n\n" +
         "ISTP\n" +
         "ISTPs often need a sense of unpredictability and excitement. They enjoy working with little space and a hands-on problem to solve.\n" +
         "An ISTP would excel in the following job types:\n" +
@@ -149,7 +149,7 @@ String detail=
         "• Insensitive \n" +
         "• Easily Bored \n" +
         "• Commitment \n" +
-        "________________________________________________\n\n" +
+        "__________________________________________________________\n\n" +
         " \n" +
         "ISFP\n" +
         "ISFPs seek positions where they can do things their own way. They want the ability to express their natural qualities and pursue creative freedom.\n" +
@@ -170,7 +170,7 @@ String detail=
         "• Easily Stressed\n" +
         "• Overly Competitive \n" +
         "• Self-Esteem \n" +
-        "________________________________________________\n\n" +
+        "__________________________________________________________\n\n" +
         "INFP\n" +
         "INFPs prefer to work in a face-to-face type of job. They do not do well in stressful environments.\n" +
         "An INFP would excel in the following job types:\n" +
@@ -190,7 +190,7 @@ String detail=
         "• Too Altruistic \n" +
         "• Impractical\n" +
         "• Dealing with Data\n" +
-        "________________________________________________\n\n" +
+        "__________________________________________________________\n\n" +
         "INTP\n" +
         "INTPs prefer to work alone. They need to intellectual stimulation, and they are self-driven and good problem solvers.\n" +
         "\n" +
@@ -212,7 +212,7 @@ String detail=
         "• Insensitive\n" +
         "• Absent-Minded\n" +
         "• Condescending \n" +
-        "________________________________________________\n\n" +
+        "__________________________________________________________\n\n" +
         "ESTP\n" +
         "ESTPs crave immediate results for their efforts. They are curious, energetic people who like action.\n" +
         "An ESTP would excel in the following job types:\n" +
@@ -232,7 +232,7 @@ String detail=
         "• Risk-Prone \n" +
         "• Unstructured \n" +
         "• Defiant \n" +
-        "________________________________________________\n\n" +
+        "__________________________________________________________\n\n" +
         "ESFP\n" +
         "ESFPs like to make the workplace a friendly and enjoyable place. They have a social and relaxed attitude but need to be in an environment with others.\n" +
         "An ESFP would excel in the following job types:\n" +
@@ -252,7 +252,7 @@ String detail=
         "• Easily Bored \n" +
         "• Long-Term Planning\n" +
         "• Unfocused \n" +
-        "________________________________________________\n\n" +
+        "__________________________________________________________\n\n" +
         "ENFP\n" +
         "ENFPs seek a change to explore new ideas and enjoy working with others who share their interests. They have good people skills and need to be in a career where they can push boundaries.\n" +
         "An ENFP would excel in the following job types:\n" +
@@ -273,7 +273,7 @@ String detail=
         "• Difficulty Focusing\n" +
         "• Overthink Things\n" +
         "• Get Stressed Easily\n" +
-        "________________________________________________\n\n" +
+        "__________________________________________________________\n\n" +
         "ENTP\n" +
         "ENTPs are excellent communicators. People who are ENTPs expect to be heard and need to apply themselves fully to understand and solve the problems that interest them. \n" +
         "An ENTP would excel in the following job types:\n" +
@@ -293,7 +293,7 @@ String detail=
         "• Intolerant \n" +
         "• Poor Follow-Up Skills\n" +
         "• Easily Bored\n" +
-        "________________________________________________\n\n" +
+        "__________________________________________________________\n\n" +
         "ESTJ\n" +
         "ESTJs show clear and consistent tendencies. They create order and follow rules and they makes sure that work is completed to a high standard\n" +
         "An ESTJ would excel in the following job types:\n" +
@@ -313,7 +313,7 @@ String detail=
         "• Judgmental\n" +
         "• Difficult to Relax\n" +
         "• Expressing Emotion\n" +
-        "________________________________________________\n\n" +
+        "__________________________________________________________\n\n" +
         "ESFJ\n" +
         "ESFJs are well-organized and enjoy bringing order and structure to their workplaces. They often work best in environments with clear, predictable hierarchies and tasks.\n" +
         "An ESFJ would excel in the following job types:\n" +
@@ -333,7 +333,7 @@ String detail=
         "• Vulnerable to Criticism\n" +
         "• Often Too Needy\n" +
         "• Too Selfless\n" +
-        "________________________________________________\n\n" +
+        "__________________________________________________________\n\n" +
         "ENFJ\n" +
         "ENFJs are intelligent, warm, creative and social. They enjoy helping others, take an interest in other people and tend to pick up what others want.\n" +
         "An ENFJ would excel in the following job types:\n" +
@@ -353,7 +353,7 @@ String detail=
         "• Too Sensitive\n" +
         "• Self-Esteem\n" +
         "• Making Decisions\n" +
-        "________________________________________________\n\n" +
+        "__________________________________________________________\n\n" +
         "ENTJ\n" +
         "ENTJs prefer to be in a workplace, surrounded by others. They are able to be clear and concise, and they enjoy leadership and responsibility.\n" +
         "An ENTJ w\n" +
@@ -375,7 +375,7 @@ String detail=
         "• Intolerant \n" +
         "• Impatient \n" +
         "• Arrogant\n" +
-        "________________________________________________";
+        "__________________________________________________________";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
