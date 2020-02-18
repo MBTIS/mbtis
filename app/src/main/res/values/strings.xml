@@ -1,6 +1,433 @@
 <resources>
     <string name="app_name">MBTI Test</string>
 
+    <string name="group1">MBTI</string>
+    <string name="group2">Assessment</string>
+    <string name="group3">What is the MBTI used for?</string>
+    <string name="group4">Four Basic Personalities</string>
+    <string name="group5">ISTJ</string>
+    <string name="group6">ISFJ</string>
+    <string name="group7">INFJ</string>
+    <string name="group8">INTJ</string>
+    <string name="group9">ISTP</string>
+    <string name="group10">ISFP</string>
+    <string name="group11">INFP</string>
+    <string name="group12">INTP</string>
+    <string name="group13">ESTP</string>
+    <string name="group14">ESFP</string>
+    <string name="group15">ENFP</string>
+    <string name="group16">ENTP</string>
+    <string name="group17">ESTJ</string>
+    <string name="group18">ESFJ</string>
+    <string name="group19">ENFJ</string>
+    <string name="group20">ENTJ</string>
+
+
+
+    <string-array name="group1">
+
+        <item>The Myers–Briggs Type Indicator (MBTI) is an introspective self-report questionnaire indicating differing psychological preferences in how people perceive the world and make decisions. </item>
+        <item>The original versions of the MBTI were constructed by two Americans, Katharine Cook Briggs and her daughter Isabel Briggs Myers. The MBTI is based on the conceptual theory proposed by Swiss psychiatrist Carl Jung, who had speculated that people experience the world using four principal psychological functions – sensation, intuition, feeling, and thinking – and that one of these four functions is dominant for a person most of the time. The four categories are </item>
+        <item>Introversion/Extraversion, Sensing/Intuition, Thinking/Feeling, Judging/Perception. Each person is said to have one preferred quality from each category, producing 16 unique types. The Center for Applications of Psychological Type states that the MBTI is scientifically supported, but most of the research on it is done through its own journal, the Journal of Psychological Type, raising questions of bias.</item>
+        <item>The MBTI was constructed for normal populations and emphasizes the value of naturally occurring differences. "The underlying assumption of the MBTI is that we all have specific preferences in the way we construe our experiences, and these preferences underlie our interests, needs, values, and motivation.</item>
+    </string-array>
+
+    <string-array name="group2">
+        <item>The MBTI is designed to help people gain insights about themselves and how they interact with others and improve how they communicate, learn, and work (and not for selection such as hiring or placement).</item>
+        <item>The test measures four key areas:</item>
+        <item>1. Directing and receiving energy</item>
+        <item>2. Taking in information</item>
+        <item>3. Making decisions</item>
+        <item>4. Approaching the outside world</item>
+        <item></item>
+        <item>These areas are sorted into 16 personality types.</item>
+        <item>16 Personality Types</item>
+        <item>There are sixteen personality types which are comprised of four letters. Each letter represents a psychological preference.</item>
+        <item>• Extraversion (E) or Introversion (I):  "E" is a person who tends to focus on and draw energy from people and activity “outside him or herself”. "I" is a person who focuses on his or her own inner world of thought and reflection.</item>
+        <item>• Sensing (S) or Intuition (N): "S" is a person who tends to focus on information that’s real and tangible. "N" tends to be a person who tends to take in the big picture and the connections between facts.</item>
+        <item>• Thinking (T) or Feeling (F):  "T" types tend to make decisions through logical analysis. "F" is a person who considers what is important and to other people involved.</item>
+        <item>• Judging (J) or Perceiving (P): "J" types are generally likely to live life in a planned, orderly way. "P" types tend to be flexible and spontaneous.</item>
+
+    </string-array>
+
+    <string-array name="group3">
+        <item>More than 10,000 companies, 2,500 colleges and universities and 200 government agencies in the United States use the MBTI. The reasons for using the MBTI test are different for every company or agency. Below is a list of just a few reasons a company may use the MBTI.</item>
+        <item>• Team building</item>
+        <item>• Training/development</item>
+        <item>• Improving communication</item>
+        <item>• Assembling teams</item>
+        <item>• Motivating employees</item>
+        <item>• Leadership development</item>
+    </string-array>
+
+    <string-array name="group4">
+        <item>The MBTI personality test helps you identify four basic areas of your personality.</item>
+        <item>1. Interaction with the world</item>
+        <item>2. Absorption of information</item>
+        <item>3. Decision-making</item>
+        <item>4. Organization</item>
+        <item>These four areas each have a polar dimension.</item>
+        <item>1. Extroversion vs. Introversion (E vs. I)</item>
+        <item>2. Sensing vs. Intuition (S vs. N)</item>
+        <item>3. Thinking vs. Feeling (T vs. F)</item>
+        <item>4. Judging vs. Perceiving (J vs. P)</item>
+        <item>E vs. I</item>
+        <item>• Extroversion describes a person who is energized by others, enjoys a variety of tasks, a quick pace, and is good at multitasking.</item>
+        <item>• Introversion describes a person who often likes working alone or in small groups, prefers a more deliberate pace, and likes to focus on one task at a time.</item>
+        <item>S vs. N</item>
+        <item>• Sensing describes are person who is realistic and likes to focus on the facts and details. Such a person would apply common sense and past experience to come up with practical solutions to problems.</item>
+        <item>• Intuition type people prefer to focus on possibilities and the big picture. They can easily see patterns, value innovation and seek creative solutions to problems.</item>
+        <item>T vs. F</item>
+        <item>• Thinking type people tend to make decisions using logical analysis, know how to objectively weigh pros and cons, and value honesty, consistency, and fairness.</item>
+        <item>• Feeling describes people who tend to be sensitive and cooperative. They base their decisions on their own personal values and how others will be affected by their actions.</item>
+        <item>J vs. P</item>
+        <item>• Judging describes a person who tends to be organized and prepared, likes to make and stick to plans, and is comfortable following most rules.</item>
+        <item>• Perceiving type people prefer to keep their options open, like to be able to act spontaneously, and like to be flexible with making plans.</item>
+        <item>It is important to keep in mind that each dimension reveals how a person is most comfortable operating, but it does not mean they will necessarily always possess their assumed dimension.</item>
+
+
+    </string-array>
+
+    <string-array name="group5">
+        <item>ISTJs are hard workers. They prefer to work in a structured environment with defined rules. They respect authority and focus on their personal and professional development.</item>
+        <item>An ISTJ would excel in the following job types:</item>
+        <item>• Lawyer</item>
+        <item>• Police Officer</item>
+        <item>• Auditor</item>
+        <item>• Business Administrator</item>
+        <item>• Government employee</item>
+        <item>Below is a list of some of the strengths and weaknesses ISTJs possess.</item>
+        <item>Strengths</item>
+        <item>• Honest</item>
+        <item>• Strong-Willed</item>
+        <item>• Very Responsible </item>
+        <item>• Organized</item>
+        <item>Weaknesses</item>
+        <item>• Stubborn </item>
+        <item>• Too Rigid </item>
+        <item>• Judgmental</item>
+        <item>• Needs to Be Right</item>
+
+    </string-array>
+
+    <string-array name="group6">
+        <item>ISFJs are dedicated and hard workers who believe in good service. They enjoy finding resolutions to day-to-day challenges.</item>
+        <item>An ISFJ would excel in the following job types:</item>
+        <item>• Managerial Roles</item>
+        <item>• Nurse</item>
+        <item>• Teacher</item>
+        <item>• Customer Service Representative</item>
+        <item>• Interior Designer</item>
+        <item>Below is a list of some of the strengths and weaknesses ISFJs possess.</item>
+        <item>Strengths</item>
+        <item>• Supportive</item>
+        <item>• Enthusiastic</item>
+        <item>• Hard-Working</item>
+        <item>• Good Practical Skills</item>
+        <item>Weaknesses</item>
+        <item>• Humble and Shy</item>
+        <item>• Overload Themselves</item>
+        <item>• Reluctant to Change</item>
+        <item>• Too Altruistic</item>
+
+    </string-array>
+
+    <string-array name="group7">
+        <item>INFJs need to express their creativity and insight. They must find meaning in their work, in order to know they are helping and connecting with people.</item>
+        <item>An INFJ would excel in the following job types:</item>
+        <item>• Writer</item>
+        <item>• HR Diversity Manager</item>
+        <item>• Customer Relations Manager</item>
+        <item>• Doctor</item>
+        <item>• Social Worker</item>
+        <item>Below is a list of some of the strengths and weaknesses INFJs possess.</item>
+        <item>Strengths</item>
+        <item>• Creative</item>
+        <item>• Inspiring</item>
+        <item>• Decisive</item>
+        <item>• Determined</item>
+        <item>Weaknesses</item>
+        <item>• Sensitive</item>
+        <item>• Private</item>
+        <item>• Perfectionistic</item>
+        <item>• Easily Bored</item>
+
+    </string-array>
+
+    <string-array name="group8">
+        <item>INTJs prefer to work alone, or in small groups. They need to be in an environment with minimal interference. They are creative perfectionists who like to do things their way.</item>
+        <item>An INTJ would excel in the following job types:</item>
+        <item>• Mechanic</item>
+        <item>• Software Engineer</item>
+        <item>• Lawyer</item>
+        <item>• Project Manager</item>
+        <item>• Economist</item>
+        <item>Below is a list of some of the strengths and weaknesses INTJs possess.</item>
+        <item>Strengths</item>
+        <item>• Strategic Mind </item>
+        <item>• Independent </item>
+        <item>• Hard-Working</item>
+        <item>• Open-Minded</item>
+        <item>Weaknesses</item>
+        <item>• Judgmental</item>
+        <item>• Overly Analytical</item>
+        <item>• Arrogant</item>
+        <item>• Insensitive</item>
+    </string-array>
+
+    <string-array name="group9">
+        <item>ISTPs often need a sense of unpredictability and excitement. They enjoy working with little space and a hands-on problem to solve.</item>
+        <item>An ISTP would excel in the following job types:</item>
+        <item>• Firefighter</item>
+        <item>• Police Officer</item>
+        <item>• Mechanic</item>
+        <item>• Graphic Designer</item>
+        <item>• Economist</item>
+        <item>Below is a list of some of the strengths and weaknesses ISTPs possess.</item>
+        <item>Strengths</item>
+        <item>• Optimistic and Energetic </item>
+        <item>• Creative and Practical </item>
+        <item>• Know How to Prioritize </item>
+        <item>• Relaxed</item>
+        <item>Weaknesses</item>
+        <item>• Stubborn </item>
+        <item>• Insensitive </item>
+        <item>• Easily Bored </item>
+        <item>• Commitment </item>
+    </string-array>
+
+    <string-array name="group10">
+        <item>ISFPs seek positions where they can do things their own way. They want the ability to express their natural qualities and pursue creative freedom.</item>
+        <item>An ISFP would excel in the following job types:</item>
+        <item>• Artist</item>
+        <item>• Designer</item>
+        <item>• Photographer</item>
+        <item>• Storekeeper</item>
+        <item>• Fashion Designer</item>
+        <item>Below is a list of some of the strengths and weaknesses ISFPs possess.</item>
+        <item>Strengths</item>
+        <item>• Charming </item>
+        <item>• Sensitive to Others</item>
+        <item>• Curious </item>
+        <item>• Artistic</item>
+        <item>Weaknesses</item>
+        <item>• Unpredictable </item>
+        <item>• Easily Stressed</item>
+        <item>• Overly Competitive </item>
+        <item>• Self-Esteem </item>
+    </string-array>
+
+    <string-array name="group11">
+        <item>INFPs prefer to work in a face-to-face type of job. They do not do well in stressful environments.</item>
+        <item>An INFP would excel in the following job types:</item>
+        <item>• HR Development Trainer</item>
+        <item>• Social Work</item>
+        <item>• Graphic Designer</item>
+        <item>• Psychologist/Therapist</item>
+        <item>• Writer/Editor</item>
+        <item>Below is a list of some of the strengths and weaknesses INFPs possess.</item>
+        <item>Strengths</item>
+        <item>• Flexible </item>
+        <item>• Very Creative </item>
+        <item>• Passionate</item>
+        <item>• Hard-Working</item>
+        <item>Weaknesses</item>
+        <item>• Too Idealistic</item>
+        <item>• Too Altruistic </item>
+        <item>• Impractical</item>
+        <item>• Dealing with Data</item>
+    </string-array>
+
+    <string-array name="group12">
+        <item>INTPs prefer to work alone. They need to intellectual stimulation, and they are self-driven and good problem solvers.</item>
+        <item>An INTP would excel in the following job types:</item>
+        <item>• Mechanic</item>
+        <item>• Data Analyst</item>
+        <item>• Architect</item>
+        <item>• University Professor</item>
+        <item>• Economist</item>
+        <item>Below is a list of some of the strengths and weaknesses INTPs possess.</item>
+        <item>Strengths</item>
+        <item>• Great Analysts</item>
+        <item>• Open-Minded</item>
+        <item>• Enthusiastic</item>
+        <item>• Objective</item>
+        <item>Weaknesses</item>
+        <item>• Very Private</item>
+        <item>• Insensitive</item>
+        <item>• Absent-Minded</item>
+        <item>• Condescending </item>
+    </string-array>
+
+    <string-array name="group13">
+        <item>ESTPs crave immediate results for their efforts. They are curious, energetic people who like action.</item>
+        <item>An ESTP would excel in the following job types:</item>
+        <item>• Banker</item>
+        <item>• Police Officer</item>
+        <item>• Athlete</item>
+        <item>• Military</item>
+        <item>• Coach</item>
+        <item>Below is a list of some of the strengths and weaknesses ESTPs possess.</item>
+        <item>Strengths</item>
+        <item>• Flexible</item>
+        <item>• Tolerant</item>
+        <item>• Direct </item>
+        <item>• Sociable </item>
+        <item>Weaknesses</item>
+        <item>• Impatient </item>
+        <item>• Risk-Prone </item>
+        <item>• Unstructured </item>
+        <item>• Defiant </item>
+    </string-array>
+
+    <string-array name="group14">
+        <item>ESFPs like to make the workplace a friendly and enjoyable place. They have a social and relaxed attitude but need to be in an environment with others.</item>
+        <item>An ESFP would excel in the following job types:</item>
+        <item>• Nurse</item>
+        <item>• Interior Designer</item>
+        <item>• Photographer</item>
+        <item>• Sales Representative</item>
+        <item>• Event Planner</item>
+        <item>Below is a list of some of the strengths and weaknesses ESFPs possess.</item>
+        <item>Strengths</item>
+        <item>• Original </item>
+        <item>• Practical </item>
+        <item>• Observant </item>
+        <item>• Excellent People Skills</item>
+        <item>Weaknesses</item>
+        <item>• Sensitive </item>
+        <item>• Easily Bored </item>
+        <item>• Long-Term Planning</item>
+        <item>• Unfocused </item>
+    </string-array>
+
+    <string-array name="group15">
+        <item>ENFPs seek a change to explore new ideas and enjoy working with others who share their interests. They have good people skills and need to be in a career where they can push boundaries.</item>
+        <item>An ENFP would excel in the following job types:</item>
+        <item>• Teacher</item>
+        <item>• Event Planner</item>
+        <item>• Engineer</item>
+        <item>• Consultant</item>
+        <item>• Journalist</item>
+        <item>Below is a list of some of the strengths and weaknesses ENFPs possess.</item>
+        <item>Strengths</item>
+        <item>• Curious </item>
+        <item>• Observant</item>
+        <item>• Energetic</item>
+        <item>• Communicative</item>
+        <item>Weaknesses</item>
+        <item>• Poor Practical Skills</item>
+        <item>• Difficulty Focusing</item>
+        <item>• Overthink Things</item>
+        <item>• Get Stressed Easily</item>
+    </string-array>
+
+    <string-array name="group16">
+        <item>ENTPs are excellent communicators. People who are ENTPs expect to be heard and need to apply themselves fully to understand and solve the problems that interest them. </item>
+        <item>An ENTP would excel in the following job types:</item>
+        <item>• Engineer</item>
+        <item>• Lawyer</item>
+        <item>• Sales Representative</item>
+        <item>• Photographer</item>
+        <item>• Marking Director</item>
+        <item>Below is a list of some of the strengths and weaknesses ENTPs possess.</item>
+        <item>Strengths</item>
+        <item>• Knowledgeable </item>
+        <item>• Quick Thinkers</item>
+        <item>• Brainstormers</item>
+        <item>• Energetic </item>
+        <item>Weaknesses</item>
+        <item>• Argumentative</item>
+        <item>• Intolerant </item>
+        <item>• Poor Follow-Up Skills</item>
+        <item>• Easily Bored</item>
+    </string-array>
+
+    <string-array name="group17">
+        <item>ESTJs show clear and consistent tendencies. They create order and follow rules and they makes sure that work is completed to a high standard</item>
+        <item>An ESTJ would excel in the following job types:</item>
+        <item>• Sales Representative</item>
+        <item>• Auditor</item>
+        <item>• Project Manager</item>
+        <item>• Lawyer</item>
+        <item>• Managerial Roles</item>
+        <item>Below is a list of some of the strengths and weaknesses ESTJs possess.</item>
+        <item>Strengths</item>
+        <item>• Dedicated</item>
+        <item>• Loyal</item>
+        <item>• Enjoy Creating Order</item>
+        <item>• Excellent Organizers</item>
+        <item>Weaknesses</item>
+        <item>• Stubborn</item>
+        <item>• Judgmental</item>
+        <item>• Difficult to Relax</item>
+        <item>• Expressing Emotion</item>
+    </string-array>
+
+    <string-array name="group18">
+        <item>ESFJs are well-organized and enjoy bringing order and structure to their workplaces. They often work best in environments with clear, predictable hierarchies and tasks.</item>
+        <item>An ESFJ would excel in the following job types:</item>
+        <item>• Accountant</item>
+        <item>• Teacher</item>
+        <item>• Social Work</item>
+        <item>• Nurse</item>
+        <item>• Sales Representative</item>
+        <item>Below is a list of some of the strengths and weaknesses ESFJs possess.</item>
+        <item>Strengths</item>
+        <item>• Practical Skills</item>
+        <item>• Sense of Duty</item>
+        <item>• Loyal</item>
+        <item>• Connecting with Others</item>
+        <item>Weaknesses</item>
+        <item>• Inflexible</item>
+        <item>• Vulnerable to Criticism</item>
+        <item>• Often Too Needy</item>
+        <item>• Too Selfless</item>
+    </string-array>
+
+    <string-array name="group19">
+        <item>ENFJs are intelligent, warm, creative and social. They enjoy helping others, take an interest in other people and tend to pick up what others want.</item>
+        <item>An ENFJ would excel in the following job types:</item>
+        <item>• Sale Representative</item>
+        <item>• HR Administrator</item>
+        <item>• Public Relations Specialist</item>
+        <item>• Teacher</item>
+        <item>• Corporate Coach/Trainer</item>
+        <item>Below is a list of some of the strengths and weaknesses ENFJ possess.</item>
+        <item>Strengths</item>
+        <item>• Tolerant</item>
+        <item>• Reliable</item>
+        <item>• Communicative</item>
+        <item>• Natural Leaders</item>
+        <item>Weaknesses</item>
+        <item>• Too Selfless</item>
+        <item>• Too Sensitive</item>
+        <item>• Self-Esteem</item>
+        <item>• Making Decisions</item>
+    </string-array>
+
+    <string-array name="group20">
+        <item>ENTJs prefer to be in a workplace, surrounded by others. They are able to be clear and concise, and they enjoy leadership and responsibility.</item>
+        <item>An ENTJ would excel in the following job types:</item>
+        <item>• Business Administrator</item>
+        <item>• Leadership Roles</item>
+        <item>• University Professor</item>
+        <item>• Management Consultant</item>
+        <item>• Lawyer</item>
+        <item>Below is a list of some of the strengths and weaknesses ENTJs possess.</item>
+        <item>Strengths</item>
+        <item>• Efficient</item>
+        <item>• Energetic </item>
+        <item>• Self-Confident</item>
+        <item>• Strong-Willed </item>
+        <item>Weaknesses</item>
+        <item>• Stubborn</item>
+        <item>• Intolerant </item>
+        <item>• Impatient </item>
+        <item>• Arrogant</item>
+    </string-array>
+
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
