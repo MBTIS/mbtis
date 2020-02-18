@@ -7,30 +7,17 @@
     android:background="@drawable/background"
     tools:context=".MbtiDetail">
 
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <androidx.cardview.widget.CardView
+        <ExpandableListView
+            android:id="@+id/expandable_listview"
             android:layout_width="match_parent"
-            android:layout_height="650dp"
-            app:cardBackgroundColor="#80159185"
-            android:layout_marginTop="40dp"
-            android:layout_marginHorizontal="10dp"
-            android:layout_marginBottom="10dp">
-            <TextView
-                android:id="@+id/HelpText"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="left"
-                android:padding="5dp"
-                android:textColor="#ffffff"
-                android:textSize="25dp"
-                android:layout_marginBottom="50dp"
-                android:layout_marginTop="10dp"></TextView>
+            android:layout_height="match_parent"
+            android:groupIndicator="@null" />
 
-        </androidx.cardview.widget.CardView>
-    </ScrollView>
+    </LinearLayout>
 
 
 
