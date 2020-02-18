@@ -15,9 +15,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="650dp"
                 app:cardBackgroundColor="#80159185"
-                android:layout_marginTop="40dp"
-                android:layout_marginHorizontal="10dp"
-                android:layout_marginBottom="10dp">
+                android:layout_marginTop="0dp"
+                android:layout_marginHorizontal="0dp"
+                android:layout_marginBottom="0dp">
                     <TextView
                         android:id="@+id/MbtiDetailText"
                         android:layout_width="match_parent"
@@ -25,7 +25,7 @@
                         android:gravity="left"
                         android:paddingVertical="10dp"
                         android:paddingLeft="20dp"
-                        android:paddingRight="8dp"
+                        android:paddingRight="3dp"
                         android:textColor="#ffffff"
                         android:textSize="25dp"
                         android:layout_marginBottom="50dp"
