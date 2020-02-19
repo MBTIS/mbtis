@@ -12,6 +12,6 @@ TextView About;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
         About=(TextView)findViewById(R.id.AboutText);
-        About.setText("MBTI TEST 1.0.1 Beta");
+        About.setText("MBTI TEST 1.0.1");
     }
 }
